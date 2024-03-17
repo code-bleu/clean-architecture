@@ -27,7 +27,7 @@
 
 ## 징후 1: 우발적 중복
 
-![0.png](/img/chapter07/zhoon/0.png)
+![0.png](/clean-architecture/img/chapter07/zhoon/0.png)
 
 - 급여 애플리케이션의 `Employee` 클래스
   - `calculatePay()`, `reportHours()`, `save()` 라는 메서드를 가진다.
@@ -64,12 +64,12 @@
 - 세 클래스는 서로의 존재를 몰라야 한다.
 - 따라서 ‘우연한 중복’을 피할 수 있다.
 
-![1.png](/img/chapter07/zhoon/1.png)
+![1.png](/clean-architecture/img/chapter07/zhoon/1.png)
 
 - 하지만 이 해결책은 개발자가 세 가지 클래스를 인스턴스화하고 추적해야 하는게 단점
 - 이러한 난관을 빠져나올 때 흔히 쓰는 기법으로 Facade 패턴이 있다.
 
-![2.png](/img/chapter07/zhoon/2.png)
+![2.png](/clean-architecture/img/chapter07/zhoon/2.png)
 
 - 어떤 개발자는 가장 중요한 업무 규칙을 데이터와 가깝게 배치하는 방식을 선호한다
   - 이 경우라면 가장 중요한 메서드는 기존의 Employee 클래스에 그대로 유지하되

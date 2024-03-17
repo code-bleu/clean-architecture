@@ -28,7 +28,7 @@
 - SRP 를 적용하면
   - 보고서 생성이 두 개의 책임으로 분리됨
 
-![0.png](/img/chapter08/zhoon/0.png)
+![0.png](/clean-architecture/img/chapter08/zhoon/0.png)
 
 - 모든 컴포넌트 관계는 단방향으로 이뤄짐
   - `Interactor` 는 `OCP` 를 가장 잘 준수할 수 있는 곳에 위치
@@ -39,7 +39,7 @@
     - `Interactor` 이외의 컴포넌트는 모두 주변적인 문제를 처리
     - `Interactor` 는 가장 중요한 문제를 담당
 
-![1.png](/img/chapter08/zhoon/1.png)
+![1.png](/clean-architecture/img/chapter08/zhoon/1.png)
 
 - 보호의 계층구조가 ‘수준(`level`)’ 이라는 개념으로 어떻게 생성되는지 주목
 - 이게 바로 아키텍처 수준에서 `OCP` 가 동작하는 방식

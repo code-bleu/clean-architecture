@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![0.jpg](/img/chapter10/zhoon/0.jpg)
+![0.jpg](/clean-architecture/img/chapter10/zhoon/0.jpg)
 
 - 그리고 OPS 가 정적 타입 언어로 작성된 클래스라고 해보자
 - 이 경우 User1 에서는 op2, op3 를 전혀 사용하지 않음에도 User1 의 소스코드는 이 두 메서드에 의존하게 됨
@@ -10,7 +10,7 @@
   - 사실 User1 과 관련된 코드는 전혀 변경되지 않았지만!
 - 이런 문제는 아래처럼 인터페이스 단위로 오퍼레이션을 분리하여 해결할 수 있음
 
-![1.jpg](/img/chapter10/zhoon/1.jpg)
+![1.jpg](/clean-architecture/img/chapter10/zhoon/1.jpg)
 
 ## ISP와 언어
 
@@ -31,7 +31,7 @@
   - 소스 코드 의존성의 경우 이는 분명한 사실인데, 불필요한 재컴파일과 재배포를 강제하기 때문
 - 하지만 더 고수준인 아키텍처 수준에서도 마찬가지 상황이 발생함
 
-![2.jpg](/img/chapter10/zhoon/2.jpg)
+![2.jpg](/clean-architecture/img/chapter10/zhoon/2.jpg)
 
 - S 시스템에서 F 프레임워크를 시스템에 도입하고자 하고, F 프레임워크 개발자는 D 데이터베이스를 반드시 사용하도록 만들었다고 가정
 - S 는 F 에 의존하고, F 는 다시 D 에 의존하게 됨

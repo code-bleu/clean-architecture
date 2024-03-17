@@ -11,7 +11,7 @@
 
 ## 상속을 사용하도록 가이드하기
 
-![0.jpg](/img/chapter09/zhoon/0.jpg)
+![0.jpg](/clean-architecture/img/chapter09/zhoon/0.jpg)
 
 - 이 설계는 `LSP` 를 준수함
   - `Billing` 애플리케이션의 행위가 `License` 하위 타입 중 무엇을 사용하는지에 전혀 의존하지 않기 때문
@@ -21,7 +21,7 @@
 
 - LSP 를 위반하는 유명한 문제
 
-![1.jpg](/img/chapter09/zhoon/1.jpg)
+![1.jpg](/clean-architecture/img/chapter09/zhoon/1.jpg)
 
 - Square 는 Rectangle 의 하위 타입으로는 적합하지 않음
 - 이런 형태의 LSP 위반을 막기 위한 유일한 방법은 (if 문 등을 이용해서) Rectangle 이 실제로는 Square 인지를 검사하는 매커니즘을 User 에 추가하는 것
